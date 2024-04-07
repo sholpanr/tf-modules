@@ -1,13 +1,13 @@
 variable "sa_id" {
-  type    = string
+  type = string
 }
 
 variable "sa_dn" {
-  type    = string
+  type = string
 }
 
 variable "cluster_name" {
-  type    = string
+  type = string
 }
 
 variable "cluster_location" {

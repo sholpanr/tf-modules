@@ -1,4 +1,3 @@
-
 resource "google_service_account" "default" {
   account_id   = var.sa_id
   display_name = var.sa_dn
@@ -12,7 +11,6 @@ resource "google_container_cluster" "primary" {
     # Google recommends custom service accounts that have cloud-platform scope and permissions granted via IAM Roles.
     service_account = google_service_account.default.email
     disk_size_gb    = var.disk_size_gb
-
   }
 
 }

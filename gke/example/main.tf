@@ -1,5 +1,5 @@
 module "gke-cluster" {
-  source = ""
+  source = "../"
   sa_id            = "service-account-id"
   sa_dn            = "Service Account display name"
   cluster_name     = "cluster-name"

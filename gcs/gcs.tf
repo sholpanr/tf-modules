@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "sholpan-storage-1" {
+resource "google_storage_bucket" "aksholpan_bucket" {
   name          = var.storage_name
   location      = var.storage_location
   storage_class = var.storage_class
